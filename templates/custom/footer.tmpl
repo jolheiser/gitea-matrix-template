@@ -1,0 +1,7 @@
+{{if .IsSigned }}
+	{{if eq .SignedUser.Theme "matrix"}}
+		<script src="{{StaticUrlPrefix}}/js/theme-matrix.js"></script>
+	{{end}}
+{{else if eq DefaultTheme "matrix"}}
+	<script src="{{StaticUrlPrefix}}/js/theme-matrix.js"></script>
+{{end}}

@@ -1,23 +1,19 @@
-# Gitea Matrix Template- Turn your gitea arc-green template into the matrix
-## Previews:
-
-![preview 1](matrix-preview.png "Preview")
-
-![preview 2](matrix-preview-2.png "Preview")
-
-## For Gitea Version ***1.12.0-dev***
+# Gitea Matrix Theme
 
 ## How to use:
 1. Find your gitea custom directory path in ***Site Administration > Configuration > Custom File Root Path***.
-2. Create directorys ***templates*** and ***public/css*** if not exist.
-3. Copy/Move files from this repo in there counterpart locations.
-4. Add folowing lines to your gitea config:
-```ini
-[ui]
-THEMES = gitea,arc-green,matrix
-DEFAULT_THEME = matrix
-```
-7. Restart your Gitea Service and you are ready to go.
+2. Create directories ***templates***, ***public/js***, and ***public/css*** if they don't exist.
+3. Copy/Move files from this repo to their counterpart locations.
+4. Add the following lines to your Gitea config:
+    ```ini
+    [ui]
+    THEMES = gitea,arc-green,matrix
+    DEFAULT_THEME = matrix
+    ```
+5. Restart your Gitea Service and you are ready to go.
+
 ### Welcome to the matrix!
 
-8. A user can still change the theme he likes in his settings avterwards
+![preview 1](preview1.png)
+
+![preview 2](preview2.png)
